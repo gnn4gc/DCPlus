@@ -1,0 +1,14 @@
+{
+    "build":{
+       "dockerfile":"../Dockerfile"
+    },
+    "customizations":{
+       "vscode":{
+          "extensions":[
+             "ms-toolsai.jupyter",
+             "ms-python.python"
+          ]
+       }
+    },
+    "onCreateCommand":"./.devcontainer/onCreateCommand.sh"
+ }
